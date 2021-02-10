@@ -1,5 +1,11 @@
 
 
-let ciasteczko = [20, 5, 8, 7, 21];
+let oreo = '87';
 
-console.log(ciasteczko)
+let muffin = '100';
+
+let brownies = '120';
+
+let tablica = [oreo, muffin, brownies];
+
+console.log(tablica)
