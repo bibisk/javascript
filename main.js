@@ -1,11 +1,9 @@
 
 
-let oreo = '87';
+let oreo = 12;
 
-let muffin = '100';
+if(oreo === 12) {
+    console.log('Podana liczba jest większa od 10');}
+else if(oreo === 10) {
+    console.log('Podana liczba nie jest większa od 10');}
 
-let brownies = '120';
-
-let tablica = [oreo, muffin, brownies];
-
-console.log(tablica)
