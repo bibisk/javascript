@@ -1,6 +1,6 @@
 
-let myHeading = document.querySelector("p")
-myHeading.textContent = "Podmiana tekstu";
-
-
-console.log(myHeading);
+let button = document.querySelector('input');
+button.textContent = "Klik działa!";
+button.onclick = function() {
+    alert('Klik działa!');
+}
