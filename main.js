@@ -1,2 +1,4 @@
 
-alert('Skrypt działa prawidłowo!')
+let name = "Beata"
+
+let surname = "Sukiennik"
