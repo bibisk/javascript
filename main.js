@@ -1,3 +1,2 @@
 
-
-console.log('Uwielbiam JavaScript!');
+alert('Skrypt działa prawidłowo!')
