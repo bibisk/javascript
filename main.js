@@ -1,14 +1,6 @@
 
-
-let firstNumber = 12;
-
-let secondNumber = 20;
-
-function multiply (firstNumber, secondNumber) {
-    let result = firstNumber + secondNumber;
-    return result;
-}
+let myHeading = document.querySelector("p")
+myHeading.textContent = "Podmiana tekstu";
 
 
-let wynikDodawania = multiply(firstNumber, secondNumber)
-console.log(wynikDodawania);
+console.log(myHeading);
