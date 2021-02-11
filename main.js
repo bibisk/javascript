@@ -1,11 +1,11 @@
 
-let btnDisplay = document.querySelector('button');
+let oreo = 12;
 
 
-btnDisplay.onclick = function () {
-    let pDescription = document.getElementById("opis");
-    pDescription.innerText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
+if(oreo > 10) {
+    console.log('Podana liczba jest większa od 10');}
+else if(oreo < 10) {
+    console.log('Podana liczba nie jest większa od 10');}
 
-}
 
 
