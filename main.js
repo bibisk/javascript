@@ -1,17 +1,13 @@
 
-let num1 = 2;
-let num2 = 5;
+let tekst1 = 'Uwielbiam Java Script';
+let tekst2 = 'Jestem świetnym programistą';
 
-// console.log(num1,num2);
-
-function compare(num1,num2) {
-    if (num1 > num2) {
-        console.log(num1);}
-    else if (num2 > num1) {
-        console.log(num2);
-    }
+function compare (tekst1, tekst2) {
+    if (tekst1 > tekst2){
+        console.log(tekst1); }
+    else if (tekst2 > tekst1) {
+        console.log(tekst2); }
 }
 
-compare(2,5)
-console.log(2,5);
-
+compare ('Uwielbiam Java Script', 'Jestem świetnym programistą');
+console.log(tekst1, tekst2);
