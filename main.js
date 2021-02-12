@@ -1,19 +1,16 @@
 
 
 
-let any = 1;
-let y = any;
-let x = any;
+let n = 1;
 
-function sprawdzanieLiczby(x,y) {
-    if ((x === 20)||(y === 20)) {
-        console.log('true');
+
+function sprawdzanieLiczby(n) {
+    if ((n <= 200)||(n >= 100)) {
+        console.log('Liczba znajduje się w przedziale');
     }
-    else if ( x+y <= 20) {
-        console.log('true');
-    }
-    else { console.log('false');}
+    else { console.log('Liczba nie znajduje się w przedziale');}
+
 }
 
-sprawdzanieLiczby(67, 12);
-console.log(sprawdzanieLiczby(67, 12));
+sprawdzanieLiczby(125);
+console.log(sprawdzanieLiczby(125));
