@@ -1,21 +1,19 @@
 
 
+let any = 1;
+let y = any;
+let x = any;
 
-let btnDisplay = document.querySelector('button');
-
-btnDisplay.onclick = function() {
-    let value1 = document.getElementById("addName").value;
-    let value2 = document.getElementById("addSurname").value;
-    let value3 = document.getElementById("addPhone").value;
-
-    let pName = document.getElementById("name");
-    pName.innerText = value1;
-
-    let pSurname = document.getElementById("surname");
-    pSurname.innerText = value2;
-   
-    let pPhone = document.getElementById("phone");
-    pPhone.innerText = value3;
-
+function sprawdzanieLiczby(x,y) {
+    if ((x === 20)||(y === 20)) {
+         return ('true');
+    }
+    else if ( x+y <= 20) {
+        return ('true');
+    }
+    else { return ('false');}
 }
+
+sprawdzanieLiczby(67, 12);
+console.log(sprawdzanieLiczby(67, 12));
 
