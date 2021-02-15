@@ -1,34 +1,19 @@
 
+let btnDisplay = document.getElementById("add");
+// console.log(buttonDisplay);
 
-function maths(num1, num2) {
-    let addingResult = num1 + num2;
-    if (addingResult >= 0) {
-        console.log('Wynik dodawania wynosi ' + addingResult);
-    } else {
-        console.log('Wynik jest nieprawidłowy');
-    }
-    let subtractResult = num1 - num2;
-    if (subtractResult >= 0) {
-        console.log('Wynik odejmowania wynosi ' + substractResult);
-    } else {
-        console.log('Wynik jest nieprawidłowy');
-    }
-    let multiplyResult = num1 * num2; {
-    if (multiplyResult >=0) {
-        console.log('Wynik mnożenia wynosi ' + multiplyResult);
-    } else {
-        console.log('Wynik jest nieprawidłowy');
-    }
-    } 
-    
+btnDisplay.onclick = function() {
+    let pDescription = document.getElementById("tekst");
+    pDescription.innerText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore minus officia quaerat soluta explicabo tempora nesciunt, dignissimos aperiam. Nihil officiis amet debitis! Illo corrupti recusandae nemo, dolores nulla hic accusantium!';
 }
 
+let btnHide = document.getElementById("remove");
+// console.log(btnHide);
 
-maths(4, 7);
-maths(5, 108);
-maths(15 - 78);
-maths(43 * 15);
-
+btnHide.onclick = function() {
+    let pDescriptionNone = document.getElementById("tekst");
+    pDescriptionNone = '';
+}
 
 
 
