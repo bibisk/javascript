@@ -10,23 +10,30 @@
 </head>
 <body>
   
-    <!-- main>header>h1{Tytuł strony}+article>(div>p#tekst)+(div>form>(button#add+button#remove))   -->
+    <!-- main>article>button{Wyświetl dane}+div#container>(p{Dane:}+p#name+p#surname+p#phone) -->
     <main>
-        <header>
-            <h1>Tytuł strony</h1>
-            <article>
-                <div id="paragraph">
-                    <p id="tekst"></p>
-                </div>
-                <div id="buttons">
-                    <form action="">
-                        <button id="add">dodaj</button>
-                        <button id="remove">usuń</button>
-                    </form>
-                </div>
-            </article>
-        </header>
+        <!-- article>form>(label+input)*3 -->
+        <article>
+            <form action="">
+                <label for="">Imię:</label><br>
+                <input id="addName" type="text"><br><br>
+                <label for="">Nazwisko:</label><br>
+                <input id="addSurname" type="text"><br><br>
+                <label for="">Numer telefonu:</label><br>
+                <input id="addPhone" type="text"></form>
+        </article>
+        <article>
+            <button>Wyświetl dane</button>
+            <div id="container">
+                <p>Dane:</p>
+                <p id="name"></p>
+                <p id="surname"></p>
+                <p id="phone"></p>
+            </div>
+        </article>
     </main>
+
+
 
 
 
