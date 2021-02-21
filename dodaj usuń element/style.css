@@ -1,0 +1,29 @@
+body {
+    background-color: #ccc3cf;
+    font-family: sans-serif;
+}
+main {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    color: #1a1717;
+    text-align: center;
+    letter-spacing: 2px;
+}
+article {
+    background-color: #1a1717 ;
+    width: 950px;
+    height: 300px;
+    color: #ccc3cf;
+}
+#buttons {
+    display: inline-block;
+    text-align: center;
+    height: 250px; ;
+}
+#tekst {
+    text-align: center;
+    height: 250px;
+} 
